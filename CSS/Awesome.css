@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Raleway&family=Roboto+Mono:ital,wght@0,200;1,700&display=swap');
+
+.about-container {
+    width: 1170px;
+    height: 665px;
+    margin-left: 170px;
+    margin-right: 170px;
+    text-align: center;
+    font-family: Raleway;
+    margin-top: 50px;
+    box-sizing: border-box;
+}
+
+.about-container .about-title {
+    vertical-align: middle;
+    display: table-cell;
+    width: 1170px;
+    height: 150px;
+    margin: 0;
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42.26px;
+}
+
+.about-container .about-subtitle {
+    width: 1169px;
+    height: 21px;
+    margin: 40px 0 71px 0;
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #86878B;
+}
+
+.about-separator {
+    width: 170px;
+    height: 0px;
+    margin: auto;
+    border-bottom: 1px solid #EC7979;
+}
+
+.about-container .about-container__block1,
+.about-container .about-container__block2,
+.about-container .about-container__block3 {
+    width: 370px;
+    height: 383px;
+    margin-right: -5px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #333;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.about-container .about-container__block2 {
+    margin: 0 30px 0 30px;
+}
+
+.about-container .about-container__block1 .block-title,
+.about-container .about-container__block2 .block-title,
+.about-container .about-container__block3 .block-title {
+    display: flex;
+    width: 370px;
+    height: 100px;
+    font-family: Open Sans;
+    margin: 0 0 8px 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-container .about-container__block1 .block-text,
+.about-container .about-container__block2 .block-text,
+.about-container .about-container__block3 .block-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21.13px;
+    margin: 0;
+}

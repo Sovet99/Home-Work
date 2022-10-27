@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Raleway&family=Roboto+Mono:ital,wght@0,200;1,700&display=swap');
+
+
+.tabs-container {
+    height: 100vh;
+    min-width: 100%;
+    font-family: Open Sans, sans-serif;
+    box-sizing: border-box;
+}
+
+.tabs-subcontainer {
+    width: 1171px;
+    margin-top: 50px;
+    margin-left: 170px;
+    margin-right: 170px;
+
+}
+
+.tabs-contaiener.open-tab {
+    border: 1px solid #C6CBCD;
+    border-top: none;
+}
+
+.open-tab .left-side .left-side__h3 {
+    height: 124px;
+    line-height: 41px;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 27px;
+    font-family: Open Sans;
+    text-align: left;
+
+}
+
+.open-tab {
+    border-left: 1px solid #C6CBCD;
+    border-bottom: 1px solid #C6CBCD;
+
+}
+
+.open-tab .left-side .left-side__h5 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    margin-bottom: 27px;
+    margin-top: 0px;
+    font-family: Raleway, sans-sherif;
+
+}
+
+.open-tab .left-side button {
+    width: 270px;
+    height: 58px;
+    background: #EC7979;
+    font-size: 18px;
+    font-weight: 600;
+    border: 1px;
+    color: #fff;
+}
+
+.left-side {
+    width: 570px;
+    display: inline-block;
+    margin: 0 25px 0px 100px;
+    vertical-align: top;
+}
+
+.tabs-container .tabs-list .tab-list__tab1,
+.tabs-container .tabs-list .tab-list__tab2,
+.tabs-container .tabs-list .tab-list__tab3,
+.tabs-container .tabs-list .tab-list__empty-tab {
+    display: inline-block;
+    margin-right: -5px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 14px;
+    height: 40px;
+    color: #333;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.tabs-list .tab-list__tab1 {
+    width: 201px;
+    height: 40px;
+    border: 1px solid #C6CBCD;
+    border-radius: 5px 5px 0 0;
+    border-bottom: none;
+}
+
+.tabs-list .tab-list__tab2 {
+    width: 201px;
+    height: 40px;
+    border-bottom: 1px solid #C6CBCD;
+}
+
+.tabs-list .tab-list__tab3 {
+    width: 184px;
+    border-bottom: 1px solid #C6CBCD;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.tabs-list .tab-list__empty-tab {
+    width: 600px;
+    border-bottom: 1px solid #C6CBCD;
+}
