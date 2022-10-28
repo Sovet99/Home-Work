@@ -2,8 +2,9 @@
 
 
 .tabs-container {
-    height: 100vh;
-    min-width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     font-family: Open Sans, sans-serif;
     box-sizing: border-box;
 }
@@ -19,11 +20,12 @@
 .tabs-contaiener.open-tab {
     border: 1px solid #C6CBCD;
     border-top: none;
+
 }
 
 .open-tab .left-side .left-side__h3 {
     height: 124px;
-    line-height: 41px;
+    line-height: 124px;
     font-size: 30px;
     font-weight: 700;
     margin-bottom: 27px;
@@ -35,6 +37,8 @@
 .open-tab {
     border-left: 1px solid #C6CBCD;
     border-bottom: 1px solid #C6CBCD;
+    display: flex;
+    justify-content: space-between; 
 
 }
 
@@ -61,7 +65,7 @@
 .left-side {
     width: 570px;
     display: inline-block;
-    margin: 0 25px 0px 100px;
+    margin-left: 100px;
     vertical-align: top;
 }
 

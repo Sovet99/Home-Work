@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway:wght@400;700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.pricing-container {
+	font-family: Raleway, sans-serif;
+}
+
+.pricing-container__price-info {
+	width: 370px;
+	border: 2px solid #F5F5F5;
+}
+
+.pricing-container__price-info h4 {
+	font-size: 24px;
+	height: 60px;
+	background: #333;
+	color: #F5F5F5;
+	line-height: 60px;
+	text-align: center;
+	border-bottom: 2px solid #F5F5F5;
+}
+
+.pricing-container__price-info h3 {
+	font-size: 36px;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	background: #333;
+	color: #F5F5F5;
+	border-bottom: 2px solid #F5F5F5;
+}
+
+.pricing-container__price-info h5 {
+	font-size: 18px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	border-bottom: 2px solid #F5F5F5;
+	font-weight: 400;
+	color: #86878B;
+}
+
+.pricing-container__price-info h5.subtitle {
+	background: #333;
+	color: rgba(255, 255, 255, 0.5);
+}
+
+.pricing-container__sections {
+	display: flex;
+	justify-content: space-between;
+	height: 530px;
+	width: calc(370px * 3 + 30px * 2);
+	margin: 0 auto;
+}
+
+.pricing-container__price-info {
+	align-self: flex-end;
+}
+
+.pricing-container__price-info:nth-of-type(2) {
+	align-self: flex-start;
+}
+
+.pricing-container h2 {
+	margin-top: 50px;
+	height: 150px;
+	line-height: 150px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 36px;
+	font-weight: 400;
+}
+
+.pricing-container .separator {
+	border: 0.5px solid #EC7979;
+	width: 170px;
+	margin: 0 auto;
+}
+
+.pricing-container__text {
+	font-size: 18px;
+	font-weight: 400;
+	color: #86878B;
+	text-align: center;
+	margin: 40px 0 59px;
+}
+
+
+
+
