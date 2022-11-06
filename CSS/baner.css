@@ -1,0 +1,51 @@
+
+.baner-container {
+    width: 1510px;
+    height: 442px;
+    background: url(../images/city.png) rgba(0, 0, 0, 0.5);
+    background-blend-mode: color;
+    margin: 0 auto;
+
+}
+
+.baner-container h2 {
+    height: 150px;
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 150px;
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+
+}
+
+.baner-container h5 {
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 42px;
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+    margin-bottom: 73px;
+}
+
+.baner-separator {
+    width: 170px;
+    border: 0.5px solid #FFFFFF;
+    margin: 0 auto;
+    margin-bottom: 40px;
+
+}
+
+.baner-container button {
+
+    height: 58px;
+    width: 370px;
+    background: none;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    margin: 0 auto;
+    display: block;
+}

@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.customers-container {
+    min-width: 1171px;
+    margin-top: 50px;
+}
+
+.customers-separator {
+    width: 170px;
+    height: 0px;
+    margin: auto;
+    border-bottom: 1px solid #EC7979;
+}
+
+.customers-container__title {
+    margin-bottom: 0;
+    font-family: Raleway;
+    font-weight: 400;
+    font-size: 36px;
+
+}
+
+.customers-container__subtitle {
+    font-family: Raleway;
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.13px;
+    margin-top: 40px;
+    margin-bottom: 83px;
+}
+
+.customers-container h2 {
+    height: 150px;
+    line-height: 150px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+/* .customers-container h5{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+} */
+
+.customers-container__section {
+    display: flex;
+    justify-content: center;
+    /* width: 370px; */
+}
+
+.customers-container__info {
+    width: 370px;
+    /* text-align: center; */
+}
+
+.customers-container__info:nth-of-type(2) {
+    width: 370px;
+    /* text-align: center; */
+    margin: 0px 30px 0px 30px;
+}
+
+.customers-container__info h5.text {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #86878B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 180px;
+    background: #E2E2E2;
+    border-radius: 10px;
+    margin: 0;
+}
+
+.customers-container__info h4 {
+    width: 270px;
+    height: 54px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    margin-right: 0px;
+   
+}
+
+
+.triangle {
+    position: relative;
+    left: 70px;
+    margin-bottom: 46px;
+}
+.manager{
+    width: 250px;
+    position: relative;
+    left: 100px;
+    margin-right: 0px;
+}
+.photo{
+    position: relative;
+    bottom: 100px;
+}
+
+.manager h5{
+    font-family: raleway;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 15px;
+}

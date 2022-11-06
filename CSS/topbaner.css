@@ -1,0 +1,121 @@
+
+.topbaner-container {
+    background: url(../images/banertop.png) rgba(0, 0, 0, 0.5);
+    background-blend-mode: color;
+    width: 1510px;
+    height: 1026px;
+    margin: 0 auto;
+
+}
+
+.topbaner-subcontainer {
+    width: 670px;
+    display: inline-flex;
+    flex-direction: column;
+    margin-left: 170px;
+}
+.topbaner-container img{
+    position: absolute;
+    top: 231px;
+}
+
+
+.topbaner-container h1 {
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-size: 48px;
+    width: 670px;
+    height: 168px;
+    color: #FFFF;
+    margin-top: 358.88px;
+}
+
+.topbaner-separator {
+    border-bottom: 0.5px solid#FFFF;
+    width: 170px;
+    margin-bottom: 42px;
+    margin-top: 55.12px;
+
+}
+
+.topbaner-container h5 {
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-size: 18px;
+    width: 270px;
+    height: 42px;
+    color: #FFFF;
+}
+
+.topbaner-container input {
+    font-family: Open Sans;
+    font-weight: 400;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    height: 38px;
+    width: 370px;
+}
+
+.topbaner-container__inputs {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.opbaner-container__form {
+    background-color: #FFFF;
+    border-radius: 10px;
+    width: 470px;
+    height: 450px;
+    display: inline-block;
+    position: absolute  ;
+    margin-top: 208px;
+    margin-left: 30px;
+}
+
+.opbaner-container__form h4 {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 90px;
+    text-align: center;
+    margin-bottom: 45px;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+.color {
+    color: #EC7979;
+}
+
+
+.opbaner-container__form button {
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 15px;
+    width: 470px;
+    height: 60px;
+    background-color: #EC7979;
+    color: #FFFF;
+    border-radius: 10px;
+    border: none;
+    margin-top: calc(75px - 33px);
+}
+
+.topbaner-container input:not(:last-child) {
+    margin-bottom: 33px;
+}
+
+.topbaner-container__button {
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    width: 270px;
+    height: 58px;
+    border: 2px solid #FFFF;
+    color: #FFFF;
+    background: none;
+    margin-top: 42px;
+}

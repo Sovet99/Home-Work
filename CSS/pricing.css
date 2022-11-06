@@ -8,6 +8,9 @@
 
 .pricing-container {
 	font-family: Raleway, sans-serif;
+	width: 1510px;
+	margin: 0 auto;
+	background: #F5F5F5;
 }
 
 .pricing-container__price-info {
@@ -89,7 +92,3 @@
 	text-align: center;
 	margin: 40px 0 59px;
 }
-
-
-
-
